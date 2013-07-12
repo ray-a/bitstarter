@@ -1,5 +1,6 @@
 var express = require('express');
-var fs = require('fs');
+var fs = require('fs'), 
+    rest = require('./restler');
 
 var app = express.createServer(express.logger());
 
